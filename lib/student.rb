@@ -18,9 +18,9 @@ class Student
   end
 
   def add_student_attributes(attributes_hash)
-      x = Scraper.scrape_profile_page
-      Scraper.scrape_profile_page.send(attributes_hash)
-      
+     
+     
+     self
   end
 
   def self.all
